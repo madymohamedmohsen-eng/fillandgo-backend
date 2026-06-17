@@ -1,0 +1,133 @@
+[
+  {
+    "model": "stations.station",
+    "pk": 1,
+    "fields": {
+      "name": "Total Energies — Maadi",
+      "brand": "Total Energies",
+      "address": "Corniche El Nile, Maadi, Cairo",
+      "latitude": "29.960800",
+      "longitude": "31.279800",
+      "phone_number": "+201000000001",
+      "image": "",
+      "is_active": true,
+      "opening_time": "00:00:00",
+      "closing_time": "23:59:59",
+      "is_24_hours": true,
+      "created_at": "2026-01-01T08:00:00Z"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 2,
+    "fields": {
+      "name": "Watanya — Ring Road",
+      "brand": "Watanya",
+      "address": "Ring Road, New Cairo, Cairo",
+      "latitude": "30.013900",
+      "longitude": "31.434700",
+      "phone_number": "+201000000002",
+      "image": "",
+      "is_active": true,
+      "opening_time": "06:00:00",
+      "closing_time": "23:00:00",
+      "is_24_hours": false,
+      "created_at": "2026-01-01T08:00:00Z"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 3,
+    "fields": {
+      "name": "Misr Petroleum — Heliopolis",
+      "brand": "Misr Petroleum",
+      "address": "El Orouba St, Heliopolis, Cairo",
+      "latitude": "30.087900",
+      "longitude": "31.323600",
+      "phone_number": "+201000000003",
+      "image": "",
+      "is_active": true,
+      "opening_time": "00:00:00",
+      "closing_time": "23:59:59",
+      "is_24_hours": true,
+      "created_at": "2026-01-01T08:00:00Z"
+    }
+  },
+  {
+    "model": "stations.fueltype",
+    "pk": 1,
+    "fields": {
+      "station": 1,
+      "fuel_type": "92",
+      "price_per_liter": "12.50",
+      "is_available": true,
+      "updated_at": "2026-01-01T08:00:00Z"
+    }
+  },
+  {
+    "model": "stations.fueltype",
+    "pk": 2,
+    "fields": {
+      "station": 1,
+      "fuel_type": "95",
+      "price_per_liter": "13.75",
+      "is_available": true,
+      "updated_at": "2026-01-01T08:00:00Z"
+    }
+  },
+  {
+    "model": "stations.fueltype",
+    "pk": 3,
+    "fields": {
+      "station": 1,
+      "fuel_type": "diesel",
+      "price_per_liter": "10.25",
+      "is_available": true,
+      "updated_at": "2026-01-01T08:00:00Z"
+    }
+  },
+  {
+    "model": "stations.fueltype",
+    "pk": 4,
+    "fields": {
+      "station": 2,
+      "fuel_type": "92",
+      "price_per_liter": "12.50",
+      "is_available": true,
+      "updated_at": "2026-01-01T08:00:00Z"
+    }
+  },
+  {
+    "model": "stations.fueltype",
+    "pk": 5,
+    "fields": {
+      "station": 2,
+      "fuel_type": "95",
+      "price_per_liter": "13.75",
+      "is_available": true,
+      "updated_at": "2026-01-01T08:00:00Z"
+    }
+  },
+  {
+    "model": "stations.fueltype",
+    "pk": 6,
+    "fields": {
+      "station": 3,
+      "fuel_type": "92",
+      "price_per_liter": "12.50",
+      "is_available": true,
+      "updated_at": "2026-01-01T08:00:00Z"
+    }
+  },
+  {
+    "model": "stations.fueltype",
+    "pk": 7,
+    "fields": {
+      "station": 3,
+      "fuel_type": "diesel",
+      "price_per_liter": "10.25",
+      "is_available": true,
+      "updated_at": "2026-01-01T08:00:00Z"
+    }
+  }
+]
